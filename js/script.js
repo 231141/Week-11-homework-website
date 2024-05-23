@@ -45,3 +45,33 @@ for (let i= 0; i < numbers.length; i++) {
 }
 
 console.log(sum)
+
+
+let numbersss = ["apple", "banana", "orange"];
+
+function gotoEnd (arr, element) {
+    arr.push(element);
+}
+
+gotoEnd(numbersss, "grape");
+
+console.log(numbersss)
+
+let theNumber = 30;
+
+if (theNumber >= 18){
+    console.log("you are an adult");
+} else if(theNumber < 100){
+    console.log("you are a minor")
+}
+
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+
+
+document.getElementById('theButton');
+
+button.addEventListener('click', function() {
+    alert ('button clicked!');
+});
